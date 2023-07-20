@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: node-js-k8s
-          image: rtarte432/node-js-app:v1
+          image: rtarte/test-node-js-app:latest
           # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
